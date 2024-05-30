@@ -1,0 +1,113 @@
+p {
+    padding: 0px;
+    margin: 0px !important;
+}
+
+body {
+    background-color: #ead7e4;
+}
+
+h1 {
+    color: #7469B6;
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: #AD88C6;
+    border: 2px solid #7469B6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+
+}
+
+input:focus{
+    color: #7469B6 !important;
+}
+input::placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+
+input:focus {
+    outline-color: #7469B6;
+}
+
+button {
+    color: #7469B6;
+    border: 2px solid #7469B6;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+ul {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    
+    background-color: #FFE6E6;
+    color: #7469B6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ulStyle{
+    padding: 10px;
+}
+
+/* // toastr => notification */
+
+
+.toDoItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7469B6;
+    flex-wrap: nowrap;
+}
+
+.task {
+    width: 70%;
+    text-decoration-line: none;
+    text-decoration-color: #a30132;
+    -moz-text-decoration-color: #a30132;
+    -moz-text-decoration-line: none;
+}
+
+.controlBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.delBtn{
+    
+     background-color:#a30132;
+     color:white;
+     border: 2px solid #a30132;
+     border-radius:5px ;
+    padding: 3px;
+    margin-top:5px;
+    margin-left: 5px;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.delBtn:hover{
+    color: white;
+}
